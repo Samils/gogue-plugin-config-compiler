@@ -1,0 +1,41 @@
+{
+	"name": "php_modules/gogue-plugin-config-compiler",
+	"version": "1.0",
+	"description": "gogue-plugin-config-compiler",
+  "type": "library",
+	"license": "MIT",
+	"keywords": [
+		"gogue",
+		"component",
+    "gogue-plugin",
+    "gogue-plugin-config-compiler",
+    "config-compiler",
+    "config",
+    "gogue-config",
+    "gogue-config-compiler"
+	],
+	"autoload": {
+		"psr-4": { "Sammy\\": "Sammy/" },
+		"psr-0": { "Sammy\\": "Sammy/" },
+		"classmap": [ "Sammy/" ],
+		"files": [ "autoload.php" ]
+	},
+  "homepage": "https://github.com/samils/gogue-plugin-config-compiler",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/samils/gogue-plugin-config-compiler/issues",
+    "wiki": "https://github.com/samils/gogue-plugin-config-compiler/wiki"
+  },
+	"require": {
+		"php": ">=5.6.20"
+	}
+}
